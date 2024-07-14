@@ -14,13 +14,12 @@ TCP粘包问题是指在TCP长连接通信过程中，由于数据包的传输�
 心跳包的作用是检测和维护TCP连接的活性，确保连接不会因为长时间无数据交换而被防火墙或其他网络设备关闭（保活）。在客户端和服务端长时间不通信时，通过定期发送心跳包来维持连接状态，避免因网络问题导致的死链情况（防死链）。
 
 ## 运行：
-’‘’
-#客户段
+客户端
 sh server.sh
 
-#服务端
+服务端
 sh client.sh
-‘’‘
+
 
 学习来选：
 https://www.bilibili.com/video/BV1ar421c7e8/?spm_id_from=333.1365.list.card_archive.click&vd_source=e8d4b14c3216687a2cdfe802ffc83ad5
